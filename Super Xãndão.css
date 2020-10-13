@@ -1,0 +1,35 @@
+body {
+    background-image: url("https://media1.tenor.com/images/606f4e37ae92245ce2cc45ca94a586f0/tenor.gif?itemid=18360536");
+    background-size: 100%;
+    text-align: center;
+}
+
+header {
+    color: blue;
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+
+h2 {
+    color: red;
+    font-size: 75px;
+}
+
+h3 {
+    color:red;
+    font-size: 50px;
+}
+
+p {
+    background-color:black;
+    color: greenyellow;
+    font-size: 20px;
+}
+
+button{
+    color: red;
+    font-family: fantasy;
+    font-size: 30px;
+    padding: 22px;
+    cursor: pointer;
+}
