@@ -1,5 +1,5 @@
 body {
-    /* background-image: url("https://media1.tenor.com/images/606f4e37ae92245ce2cc45ca94a586f0/tenor.gif?itemid=18360536"); */
+    background-image: url("https://media1.tenor.com/images/606f4e37ae92245ce2cc45ca94a586f0/tenor.gif?itemid=18360536");
     background-size: 100%;
     text-align: center;
 }
@@ -41,6 +41,10 @@ button{
     padding-left: 200px;
     cursor: pointer;
     
+}
+
+derrta {
+    background-image: url("https://media1.tenor.com/images/3bf5f97e6f11838fe7b65628a28f1452/tenor.gif?itemid=14272735");
 }
 
 /* colocar no derrota */
