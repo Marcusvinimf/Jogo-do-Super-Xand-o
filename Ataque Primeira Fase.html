@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Super Xãndão Salva Novamente</title>
+        <link rel="stylesheet" href="SuperXandao.css">
+    </head>
+
+    <body>
+        <header>
+            <h2>ATAQUE DE SUPER XANDÃO</h2>
+        </header>
+
+        <main>
+            <p>Super Xandão carrega um poderoso ataque ao demônio lvl 3 </p>
+
+            <button>SEM PRESSÃO, AQUI É XANDÃO!!!</button>
+        </main>
+
+        <script>
+
+            var ataqueX = Math.round(Math.random () * 8);
+
+            //var ataqueX = 2; -- texte --
+
+            function ataque(){
+
+                if (ataqueX == 6 || ataqueX == 7 || ataqueX == 8 )
+                {
+                    document.write("Super Xandão estraçalha o demônio!!! todos os outros demônios ficaram com medo, MUNDO SALVO PRA SEMPRE!!! <br><br><br> FECHE O JOGO!!!");
+                } else if (ataqueX == 3 || ataqueX == 4 || ataqueX == 5 )
+                {
+                    alert("                   VITORIA!!!\n \n \nSuper Xandão lutou bem, como sempre, continue salvando o mundo Super Xandão!!!");
+                    window.location.replace("file:///C:/Users/marcu/Desktop/Produ%C3%A7%C3%A3o%20do%20jogo,%20Super%20Xand%C3%A3o/PRODU%C3%87%C3%83O%20DO%20JOGO.html");
+                }else{
+                    alert("Super Xandão teve piedade desse demônio e o deixou ir");
+                    window.location.replace("file:///C:/Users/marcu/Desktop/Produ%C3%A7%C3%A3o%20do%20jogo,%20Super%20Xand%C3%A3o/DERROTA.html");
+                }
+            }
+
+            var button = document.querySelector("button")
+
+            button.onclick = ataque;
+
+        </script>
+    </body>
+</html>

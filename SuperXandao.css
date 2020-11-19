@@ -1,0 +1,52 @@
+body {
+    background-image: url("https://media1.tenor.com/images/606f4e37ae92245ce2cc45ca94a586f0/tenor.gif?itemid=18360536");
+    background-size: 100%;
+    text-align: center;
+}
+
+header {
+    color: yellow;
+    font-size: 31px;
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+
+h1 {
+    background-image: url("https://thumbs.gfycat.com/BoringSphericalHind-max-14mb.gif");
+}
+
+h2 {
+    color: red;
+    font-size: 75px;    
+}
+
+h3 {
+    color:red;
+    font-size: 50px;
+}
+
+p {
+    background-color:black;
+    color: greenyellow;
+    font-size: 50px;
+}
+
+button{
+    background-color:black ;
+    color: red;
+    font-family: fantasy;
+    font-size: 70px;
+    height: 150x;   
+    padding-right: 200px;
+    padding-left: 200px;
+    cursor: pointer;
+    
+}
+
+derrta {
+    background-image: url("https://media1.tenor.com/images/3bf5f97e6f11838fe7b65628a28f1452/tenor.gif?itemid=14272735");
+}
+
+/* colocar no derrota */
+
+/* https://media1.tenor.com/images/3bf5f97e6f11838fe7b65628a28f1452/tenor.gif?itemid=14272735 */
